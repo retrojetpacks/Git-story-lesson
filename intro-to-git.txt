@@ -1,0 +1,18 @@
+Once upon a time I had a deep pain. Please never talk about it.
+
+
+git init 
+Starts git
+
+git add . 
+adds all files in folder to git
+
+git status
+Let's you know the situation with commitment
+
+git commit -m "The commit message is super important!"
+Commit files ready for push. Always add message
+Commit message should be written in present tense by convention
+
+git log
+shows when commits were made
