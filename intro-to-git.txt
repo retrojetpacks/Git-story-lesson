@@ -5,7 +5,7 @@ git init
 Starts git
 
 git add . 
-adds all files in folder to git
+adds all files in folder to git 'staging area'
 
 git status
 Let's you know the situation with commitment
@@ -16,3 +16,11 @@ Commit message should be written in present tense by convention
 
 git log
 shows when commits were made
+
+git diff chapter1.txt 
+Shows where all changes have been made, similar to emacs diff
+
+git remote add origin address
+Tell git that you've set up an external place to store stuff
+origin is the name, can be anything but origin by convention
+address is web address, probably github

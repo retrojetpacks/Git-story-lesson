@@ -1,1 +1,41 @@
 Once upon a time I had a deep pain. Please never talk about it.
+
+
+git init 
+Starts git
+
+git add . 
+adds all files in folder to git 'staging area'
+
+git status
+Let's you know the situation with commitment
+
+git commit -m "The commit message is super important!"
+Commit files ready for push. Always add message
+Commit message should be written in present tense by convention
+
+git log
+shows when commits were made
+
+git diff chapter1.txt 
+Shows where all changes have been made, similar to emacs diff
+
+git remote add origin address
+Tell git that you've set up an external place to store stuff
+origin is the name, can be anything but origin by convention
+address is web address, probably github
+
+
+Master branch
+Main branch, sequential
+
+git ignore
+Use this for API keys, secret passwords
+
+git rm --cached -r .
+Removed files from git add
+
+.gitignore
+add files names, one per line, to this file to ignore these for git add .
+# for comments
+* wildcard, ie *.txt ignores all txt files
