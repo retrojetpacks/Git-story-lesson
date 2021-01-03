@@ -24,3 +24,12 @@ git remote add origin address
 Tell git that you've set up an external place to store stuff
 origin is the name, can be anything but origin by convention
 address is web address, probably github
+
+git branch
+shows all git branches. * shows current branch
+
+git branch name
+create a new git branch, name is the branch name
+
+git checkout name
+switch to named branch
